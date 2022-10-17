@@ -1,0 +1,8 @@
+div#col_2, #template_1_2 #col_2 {
+    display: block !important;
+
+}
+
+#template_1_2 #col_1.col_1.large-8 {
+    margin-left: 33% !important;
+}

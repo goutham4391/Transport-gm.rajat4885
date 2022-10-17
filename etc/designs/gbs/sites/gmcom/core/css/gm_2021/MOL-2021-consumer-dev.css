@@ -1,0 +1,10 @@
+
+	#col_2 .rightpar {display:none;}	
+
+.article_title_contain::before {
+    content: "Newsroom:";
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    display: block;
+}

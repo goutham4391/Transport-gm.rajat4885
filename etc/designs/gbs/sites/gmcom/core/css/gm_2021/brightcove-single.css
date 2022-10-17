@@ -1,0 +1,56 @@
+/*----------------------------------------------------------------------------------------
+--------------------------------  Single Player Videos  ----------------------------------
+----------------------------------------------------------------------------------------*/
+.reveal.videos {
+    height: auto;
+    min-height: auto;
+    max-height: initial;
+    max-width: 1200px;
+    overflow: visible;
+}
+.reveal.videos > div {
+    overflow: hidden;
+    border-radius: 6px;
+}
+.reveal.content {
+    padding: 0;
+    height: auto;
+    margin: 0 auto;
+    min-height: auto;
+    max-height: initial;
+    max-width: 1200px;
+    background:#fff;
+}
+.reveal.videos button.close-button {
+    z-index: 100;
+    right: -5px;
+    top: -25px;
+}
+.reveal.videos .close-button, .reveal.content .close-button {
+    padding: 1px 15px;
+}
+.reveal.videos button.close-button span {
+    color: #fff;
+    font-weight: 900;
+    font-size: 30px;
+    position: absolute;
+}
+.reveal.videos button.close-button span .fas {
+    background: #08498A;
+    border-radius: 40px;
+}
+@media print, screen and (min-width: 768px) {
+    .reveal.content {
+        width: 80%;
+    }
+}
+@media print, screen and (min-width: 1250px) {
+    .reveal.content {
+        width: 1200px;
+    }
+}
+@media only screen and ( max-width: 767px ) {
+    .reveal.content {
+        width: 90%;
+    }
+}
